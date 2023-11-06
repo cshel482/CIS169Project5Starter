@@ -26,7 +26,8 @@ public class SeedData
                     CourseName = "Cobol", 
                     Id = 12, 
                     RoomNumber = 120,
-                    StartTime = new TimeOnly(1,30)
+                    StartTime = new TimeOnly(1,30),
+                    EndTime = new TimeOnly(2,30)
                 },
                 new Course()
                 {
@@ -34,7 +35,8 @@ public class SeedData
                     CourseName = "Program thing", 
                     Id = 13, 
                     RoomNumber = 200,
-                    StartTime = new TimeOnly(1,45)
+                    StartTime = new TimeOnly(1,45),
+                    EndTime = new TimeOnly(3,0)
                 },
                 new Course()
                 {
@@ -42,7 +44,8 @@ public class SeedData
                     CourseName = "Hacker Class", 
                     Id = 14, 
                     RoomNumber = 116,
-                    StartTime = new TimeOnly(1,30)
+                    StartTime = new TimeOnly(1,30),
+                    EndTime = new TimeOnly(2,0)
                 },
                 new Course()
                 {
@@ -50,7 +53,8 @@ public class SeedData
                     CourseName = "Cobol II", 
                     Id = 15, 
                     RoomNumber = 200,
-                    StartTime = new TimeOnly(1,00)
+                    StartTime = new TimeOnly(1,00),
+                    EndTime = new TimeOnly(2,0)
                 },
                 new Course()
                 {
@@ -58,7 +62,8 @@ public class SeedData
                     CourseName = "Web design", 
                     Id = 16, 
                     RoomNumber = 112,
-                    StartTime = new TimeOnly(8,0)
+                    StartTime = new TimeOnly(8,0),
+                    EndTime = new TimeOnly(10,0)
                 }
                 
                 );

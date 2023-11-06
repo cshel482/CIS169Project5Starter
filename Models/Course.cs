@@ -18,5 +18,9 @@ namespace CourseCatalog.Models
         [DataType(DataType.Time)]
         [Display(Name = "Start Time")]
         public TimeOnly StartTime { get; set; }
+        
+        [DataType((DataType.Time))]
+        [Display(Name = "End Time")]
+        public TimeOnly EndTime { get; set; }
     }
 }
